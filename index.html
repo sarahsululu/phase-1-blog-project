@@ -1,55 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beauty Blog Manager</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="src/index.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beauty Blog Manager</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="src/index.js" defer></script>
 </head>
 <body>
-    <div class = "container">
-        <header>
-        <h1>Your Beauty Blog Dashboard</h1>
-        <p>Where content meets confidence</p>
-        </header>
+  <div class="container">
+    <header>
+      <h1>Your Beauty Blog Dashboard</h1>
+      <p>Where content meets confidence</p>
+    </header>
 
-        <main class= "main-content">
-            <section id="post-list-section" class="post-list-section">
-                <h2>All posts</h2>
-                <ul id="post-list">
-                    <li class="loading-message">Loading posts...</li>
+    <main class="main-content">
+      <section id="post-list-section" class="post-list-section">
+        <h2>All posts</h2>
+        <ul id="post-list">
+          <li class="loading-message">Loading posts...</li>
+        </ul>
+      </section>
 
-                </ul>
-              </section>
-              <section id="post-detail-section" class="post-detail-section">
-              <div id="post-detail" class="post-detail-content">
-                    <p class="initial-message">Select a post from the list to view details.</p>
-              </div>
-            </section>
-            </main>
-            <section id="add-post-section" class="add-post-section">
-                <h2>Add New Post</h2>
-                <form id="new-post-form">
-                    <div class="form-group">
-                        <label for="new-post-title">Title</label>
-                        <input type="text" id="new-post-title" name="title"required>
-                    </div>
-                    <div class="form-group">
-                        <label for="new-post-author">Author</label>
-                        <input type="text" id="new-post-author" name="author">
-                    </div>
-                    <div class="form-group">
-                        <label for="new-post-content">Content</label>
-                        <textarea id="new-post-content" name="content" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="button button-success">Create Post</button>
+      <section id="post-detail-section" class="post-detail-section">
+        <div id="post-detail" class="post-detail-content">
+          <p class="initial-message">Select a post from the list to view details.</p>
+        </div>
+      </section>
+    </main>
 
-                </form>
+    <section id="add-post-section" class="add-post-section">
+      <h2>Add New Post</h2>
+      <form id="new-post-form">
+        <div class="form-group">
+          <label for="new-post-title">Title</label>
+          <input type="text" id="new-post-title" name="title" required />
+        </div>
 
-                
+        <div class="form-group">
+          <label for="new-post-author">Author</label>
+          <input type="text" id="new-post-author" name="author" />
+        </div>
 
-            </section>
-            
+        <div class="form-group">
+          <label for="new-post-content">Content</label>
+          <textarea id="new-post-content" name="content" rows="5" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="new-post-image">Image URL</label>
+          <input type="text" id="new-post-image" name="image" required />
+        </div>
+
+        <button type="submit" class="button button-success">Create Post</button>
+      </form>
+    </section>
+  </div>
 </body>
 </html>

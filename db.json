@@ -1,0 +1,21 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Top 5 Lipsticks for Dark Skin",
+      "content": "In this post, I share my top 5 favorite lipsticks that look stunning on dark skin tones...",
+      "theme": "Makeup/Beauty",
+      "image": "images/lipstick.jpg",
+      "author": "Sarah Sululu"
+    },
+    {
+      "id": 2,
+      "title": "My Skincare Routine",
+      "content": "Here’s a breakdown of my morning and evening skincare routine with my favorite products...",
+      "theme": "Makeup/Beauty",
+      "image": "images/skincare.jpg",
+      "author": "Sarah Sululu"
+    }
+  ]
+}
+
